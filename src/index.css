@@ -1,13 +1,14 @@
+:root {
+--aadhaar-orange: #FF6600;
+--bg-light: #f7f7f8;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+background: var(--bg-light);
+font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/* small helpers */
+.card-rounded { border-radius: 12px; }
+.sidebar-link-active { background: rgba(255,102,0,0.08); color: var(--aadhaar-orange) !important; }
+
